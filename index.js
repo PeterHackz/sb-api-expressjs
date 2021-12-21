@@ -52,7 +52,7 @@ app.post('/sb9838/tools/frida-compile', (req, res) => {
         try {
             frida = require('frida');
         } catch (e) {
-            throw new Error('Please fuck yourself');
+            throw new Error('frida module is not installed');
         }
 
         return await frida.attach(0);
