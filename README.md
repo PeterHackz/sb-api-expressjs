@@ -2,6 +2,7 @@
 api made in nodejs
 # special thanks for
 - pitust#8711 for helping me to make this
+- tailsjs for fixing
 # wanna talk? 
 [join my discord server](https://discord.gg/b2ejYcJjqA)
 # License
