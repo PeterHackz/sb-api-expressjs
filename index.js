@@ -15,7 +15,7 @@ app.use(text({
 app.post('/sb9838/tools/frida-compile', async(req, res) => {
     if(!req.body)return res.send("APIError! Required argument is missing.");
 
-    const compiled = await await frida.attach(0).compileScript(req.body);
+    const compiled = await frida.attach(0).compileScript(req.body);
 
     return res.send(compiled)
 });
