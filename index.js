@@ -4,11 +4,10 @@
 */
 
 const express = require('express');
-const { text } = require('body-parser');
 const app = express();
 const frida = require("frida");
 
-app.use(text({
+app.use(express.text({
     type: () => 1
 }));
 
