@@ -8,7 +8,7 @@ const app = express();
 const frida = require("frida");
 
 app.use(express.text({
-    type: () => 1
+    type: 1
 }));
 
 app.post('/sb9838/tools/frida-compile', async(req, res) => {
